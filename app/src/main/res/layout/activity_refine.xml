@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Refine">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@color/shade1">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="15dp"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="22sp"
+          android:text="Refine"
+          android:textColor="#E8E8EC"
+          android:layout_marginTop="30dp"
+          android:layout_marginLeft="10dp"
+
+          />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="18dp"
+        android:text="Select Your Availability"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        />
+    <Spinner
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:layout_marginStart="18dp"
+
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="18dp"
+        android:text="Add Your Status"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Hi Community! I am open to ne Connections :)"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:maxLength="250"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="320dp"
+        android:text="0/250"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="18dp"
+        android:text="Select Hyper Local Distance"
+        android:textStyle="bold"
+        android:textSize="18sp"
+
+        />
+
+    <com.google.android.material.slider.Slider
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:valueFrom="0"
+        android:valueTo="100"
+        android:stepSize="1"
+        android:value="50"
+        app:labelBehavior="visible"
+        app:thumbColor="@color/shade1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="18dp"
+        android:text="1Km"
+        android:textSize="18sp"
+
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+
+            android:text="100Km"
+            android:textSize="18sp"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="18dp"
+        android:text="Select Purpose"
+        android:textStyle="bold"
+        android:textSize="18sp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="18dp"
+        >
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Coffee"
+          android:textSize="20sp"
+          android:background="@drawable/rounded_button"
+          android:textColor="@color/white"
+          />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Buisness"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hobbies"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Freindship"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Movies"
+
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Dinning"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Dating"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Matrimony"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/shade2"
+        android:text="Save & Explore"
+        android:layout_marginTop="18dp"
+
+        android:layout_marginStart="145dp"/>
+
+
+
+
+</LinearLayout>
